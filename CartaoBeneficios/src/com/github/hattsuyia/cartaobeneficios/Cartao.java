@@ -1,6 +1,8 @@
 package com.github.hattsuyia.cartaobeneficios;
 
-public class Cartao {
+import java.io.Serializable;
+
+public class Cartao implements Serializable {
 
     public static final double TARIFA_DEPOSITO = 0.10;
     public static final double VALOR_MINIMO_DEPOSITO = 50;
@@ -8,17 +10,20 @@ public class Cartao {
     private String titular;
     private double saldo;
 
+    public Cartao(){
+
+    }
     public Cartao(String titular){
         this.titular = titular;
     }
-    public String obterTitular (){
+    public String getTitular(){
         return titular;
     }
-    public double obterSaldo(){
+    public double getSaldo(){
         return saldo;
     }
     public void debitar (double valorDebito){
-        if (obterSaldo() < valorDebito) {
+        if (getSaldo() < valorDebito) {
             throw new RuntimeException("Saldo insuficiente para pagamento");
         }
 
