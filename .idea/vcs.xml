@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Arrays" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Banco" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ContaPaga" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/DesafioArrays" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DesafioClassesAbstratas" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/DesafioConstrutores" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DesafioInterfaceSeguradora" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Exceptions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Exceptions/_01-IntroducaoExceptions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Exceptions/estoque" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FolhaPagamento" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Interface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/InterfaceFinanceira" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RH" vcs="Git" />
   </component>
 </project>
